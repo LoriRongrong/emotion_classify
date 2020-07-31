@@ -5,4 +5,7 @@ LeBrun is a famous artist who explored emotion in his paintings. He embedded the
 Another inspiration is "Can Machine Perceives Emotion" (https://youtu.be/7uhhM3UyHvc). I am looking forward to test if humans have any improvement.
 
 
-human emotion dataset:http://www.whdeng.cn/RAF/model1.html
+- pick a [fine-art dataset](https://www.kaggle.com/momanyc/museum-collection)
+- run Detectron2 on the dataset to select person instance in the images, and save the segment masks in a file
+- manually label facial expression follow the AFFNET format
+- choose several state-of-arts emotion classification models to compare the results
